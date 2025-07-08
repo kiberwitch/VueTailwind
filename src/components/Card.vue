@@ -24,7 +24,7 @@ defineProps({
         class="absolute top-0 left-0 p-2"
       >
         <img 
-          :src="isFavorite(item.id) ? '/public/img/ico/favorite-online.svg' : '/public/img/ico/serdce.svg'" 
+          :src="isFavorite(item.id) ? 'img/ico/favorite-online.svg' : 'img/ico/serdce.svg'" 
           alt="Favorite"
           class="w-10 h-10 cursor-pointer"
         >
@@ -42,7 +42,7 @@ defineProps({
         class="p-2 rounded-full"
       >
         <img 
-          :src="isInCart(item.id) ? '/public/img/ico/basket-favourites .svg' : '/public/img/ico/basket-flowers.svg'" 
+          :src="isInCart(item.id) ? 'img/ico/basket-favourites .svg' : 'img/ico/basket-flowers.svg'" 
           alt="Add to cart"
           class="w-10 h-10 cursor-pointer"
         >
