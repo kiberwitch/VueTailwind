@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Импорт темы и плагина Flowbite */
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+/* Далее идут стандартные Tailwind-импорты */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+body, html {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
